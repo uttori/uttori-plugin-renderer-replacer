@@ -1,8 +1,12 @@
-[![view on npm](https://img.shields.io/npm/v/uttori-plugin-renderer-replacer.svg)](https://www.npmjs.org/package/uttori-plugin-renderer-replacer)
-[![npm module downloads](https://img.shields.io/npm/dt/uttori-plugin-renderer-replacer.svg)](https://www.npmjs.org/package/uttori-plugin-renderer-replacer)
+[![view on npm](https://img.shields.io/npm/v/@uttori/plugin-renderer-replacer.svg)](https://www.npmjs.com/package/@uttori/plugin-renderer-replacer)
+[![npm module downloads](https://img.shields.io/npm/dt/@uttori/plugin-renderer-replacer.svg)](https://www.npmjs.com/package/@uttori/plugin-renderer-replacer)
 [![Build Status](https://travis-ci.com/uttori/uttori-plugin-renderer-replacer.svg?branch=master)](https://travis-ci.com/uttori/uttori-plugin-renderer-replacer)
 [![Dependency Status](https://david-dm.org/uttori/uttori-plugin-renderer-replacer.svg)](https://david-dm.org/uttori/uttori-plugin-renderer-replacer)
-[![Coverage Status](https://coveralls.io/repos/uttori/uttori-plugin-renderer-replacer/badge.svg?branch=master)](https://coveralls.io/r/uttori/uttori-plugin-renderer-replacer?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/uttori/uttori-plugin-renderer-replacer/badge.svg?branch=master)](https://coveralls.io/github/uttori/uttori-plugin-renderer-replacer?branch=master)
+[![Tree-Shaking Support](https://badgen.net/bundlephobia/tree-shaking/@uttori/plugin-renderer-replacer)](https://bundlephobia.com/result?p=@uttori/plugin-renderer-replacer)
+[![Dependency Count](https://badgen.net/bundlephobia/dependency-count/@uttori/plugin-renderer-replacer)](https://bundlephobia.com/result?p=@uttori/plugin-renderer-replacer)
+[![Minified + GZip](https://badgen.net/bundlephobia/minzip/@uttori/plugin-renderer-replacer)](https://bundlephobia.com/result?p=@uttori/plugin-renderer-replacer)
+[![Minified](https://badgen.net/bundlephobia/min/@uttori/plugin-renderer-replacer)](https://bundlephobia.com/result?p=@uttori/plugin-renderer-replacer)
 
 # Uttori Renderer - Replacer
 
