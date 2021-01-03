@@ -1,0 +1,66 @@
+[![view on npm](https://img.shields.io/npm/v/uttori-plugin-renderer-replacer.svg)](https://www.npmjs.org/package/uttori-plugin-renderer-replacer)
+[![npm module downloads](https://img.shields.io/npm/dt/uttori-plugin-renderer-replacer.svg)](https://www.npmjs.org/package/uttori-plugin-renderer-replacer)
+[![Build Status](https://travis-ci.com/uttori/uttori-plugin-renderer-replacer.svg?branch=master)](https://travis-ci.com/uttori/uttori-plugin-renderer-replacer)
+[![Dependency Status](https://david-dm.org/uttori/uttori-plugin-renderer-replacer.svg)](https://david-dm.org/uttori/uttori-plugin-renderer-replacer)
+[![Coverage Status](https://coveralls.io/repos/uttori/uttori-plugin-renderer-replacer/badge.svg?branch=master)](https://coveralls.io/r/uttori/uttori-plugin-renderer-replacer?branch=master)
+
+# Uttori Renderer - Replacer
+
+Uttori plugin for replacing text in a rendering pipeline with Regular Expressions.
+
+## Install
+
+```bash
+npm install --save @uttori/plugin-renderer-replacer
+```
+
+## Config
+
+```javascript
+{
+  // Registration Events
+  events: {
+    renderContent: [],
+    renderCollection: [],
+    validateConfig: [],
+  },
+
+  // Replace Rules
+  rules: [
+    {
+      test: 'shamrock',
+      output: '☘️',
+    },
+    {
+      test: /cow[-\s]?boy/gm,
+      output: '🤠',
+    },
+  ]
+}
+```
+
+* * *
+
+## API Reference
+
+{{>main}}
+
+* * *
+
+## Tests
+
+To run the test suite, first install the dependencies, then run `npm test`:
+
+```bash
+npm install
+npm test
+DEBUG=Uttori* npm test
+```
+
+## Contributors
+
+* [Matthew Callis](https://github.com/MatthewCallis)
+
+## License
+
+* [MIT](LICENSE)
