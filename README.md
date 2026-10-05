@@ -8,6 +8,10 @@
 [![Minified + GZip](https://badgen.net/bundlephobia/minzip/@uttori/plugin-renderer-replacer)](https://bundlephobia.com/result?p=@uttori/plugin-renderer-replacer)
 [![Minified](https://badgen.net/bundlephobia/min/@uttori/plugin-renderer-replacer)](https://bundlephobia.com/result?p=@uttori/plugin-renderer-replacer)
 
+# Package Moved
+
+This has been added to the core https://github.com/uttori/uttori-wiki package.
+
 # Uttori Renderer - Replacer
 
 Uttori plugin for replacing text in a rendering pipeline with Regular Expressions.
